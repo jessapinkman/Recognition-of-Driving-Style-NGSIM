@@ -1,0 +1,33 @@
+{
+    "data_source": "data/i-80.csv",
+    "road": "i-80",
+    "useCols": [
+      "Vehicle_ID",
+      "Frame_ID",
+      "Total_Frames",
+      "Global_Time",
+      "Global_X",
+      "Global_Y",
+      "Local_X",
+      "Local_Y",
+      "v_length",
+      "v_Width",
+      "v_Class",
+      "v_Vel",
+      "v_Acc",
+      "Lane_ID",
+      "Preceding",
+      "Following",
+      "Space_Headway",
+      "Time_Headway"
+    ],
+    "area_length": 80,
+    "time_length": 10,
+    "area_step": 20,
+    "time_step": 30,
+    "stride": 5.0,
+    "hist_dist":6,
+    "hist_time":0,
+    "noise": 1,
+    "need_num": 20
+  }
